@@ -156,7 +156,7 @@ public class MyListener extends qweBaseListener {
     public static void main(String[] args) {
         try {
             org.antlr.v4.runtime.CharStream input =
-                    CharStreams.fromFileName("D:\\JavaProjects\\YAPIS\\src\\myCode.qwe");
+                    CharStreams.fromFileName("D:\\лабы\\3_2\\ЯПИС\\YAPIS\\src\\myCode.qwe");
 
             qweLexer lexer = new qweLexer(input);
             qweParser parser = new qweParser(new CommonTokenStream(lexer));
